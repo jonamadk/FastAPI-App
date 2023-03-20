@@ -11,10 +11,7 @@ def line_of_business_entity(item) -> dict:
         "enabled": item["enabled"],
         "_class": item["_class"],
         "carrierLogo": item["carrierLogo"],
-        "jurisdictions": item["jurisdictions"],
-        "integrationType": item["integrationType"],
-        "stateOrProvinceCode": item["stateOrProvinceCode"],
-        "stateOrProvinceName": item["stateOrProvinceName"],
+        "jurisdictions": item["jurisdictions"]    
     }
     
 

@@ -12,12 +12,9 @@ class LineOfBusiness(BaseModel):
     enabled:str
     _class:str
     carrierLogo:str
-    jurisdictions:str
+    jurisdictions:list
     integrationType:str
     stateOrProvinceCode:str
     stateOrProvinceName:str
-    integrationType:str
-    stateOrProvinceCode:str
-    stateOrProvinceName:str
-
+   
     
